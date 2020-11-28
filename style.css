@@ -4,6 +4,7 @@
 
     --accent : #4F46E5;
     --heading-text:#6B7280;
+    --section-bg:#E5E7EB;
 }
 
 
@@ -11,14 +12,14 @@
     margin: 0;
     padding: 0;
     font-family: 'Rubik', sans-serif;
+    text-decoration: none;
 }
 
 nav{
-    height: 55px;
+    height: 59px;
     border: 0;
     background-color: var(--accent);
     border-bottom-left-radius: 15px;
-    border-bottom-right-radius: 15px;
 }
 
 #nav{
@@ -36,18 +37,17 @@ nav img{
 #nav li{
     display: inline;  
     padding: 0px 15px;
-    font-size: 20px;
+    font-size: 25px;
     font-weight: 500;
 }
 
 #inactive{
     color: darkgray;
-    text-decoration: none;
+    
 }
 
 #active{
     color: white;
-    text-decoration: none;
     font-weight: bold;
 }
 
@@ -56,10 +56,9 @@ nav img{
     text-align: center;
     position: absolute;
     display: inline; 
-    padding-left: 10%;
+    padding-left: 5%;
     font-size: 50px;
     color: bisque;
-    letter-spacing: 5px;
 }
 
 #nav ul{
@@ -85,4 +84,105 @@ nav img{
 
 .heading-accent{
     color: var(--accent);
+}
+
+.section-dark{
+    background-color: var(--section-bg);
+    height: 280px;
+    margin-bottom: 20px;
+}
+
+.section-light{
+    height: 280px;
+    margin-bottom: 20px;
+}
+
+.heading-section{
+    text-align: center;
+    padding: 30px;
+}
+
+.content-section{
+
+    text-align: center;
+    padding: 0px auto 20px auto;
+    font-size: 18px;
+    margin-left: 20px;
+}
+
+.techno-image{
+  position: absolute;
+  margin-left: 42%;
+  margin-top: 25px;
+  height: 90px;
+ 
+}
+
+.button-primary{
+
+    background-color: var(--accent);
+    color: aliceblue;
+    padding: 15px;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border-radius: 10px;
+    width: 130px;
+    text-align: center;
+}
+
+.button-secondary{
+
+    border: 1px solid var(--accent);
+    color: var(--accent);
+    padding: 15px;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border-radius: 10px;
+    width: 130px;
+    text-align: center;
+}
+
+.button-span{
+    display: block;
+    padding: 30px;
+}
+
+.image-span{
+  width: 90px;
+  height: 90px;
+}
+
+.main-content{
+    height: 130px;
+    background-color: var(--accent);
+    border-top-right-radius: 10px;
+}
+
+.upper-box{
+    padding: 20px;
+    text-align: center;
+    color: aliceblue;
+    
+}
+
+.details{
+    cursor: pointer;
+    margin: 90px;
+}
+
+.lower-box{
+    padding-top: 20px;
+    text-align: center;
+}
+#references{
+    letter-spacing: 2px;
+    padding-right: 120px;
+    padding-left: 50px;
+}
+#references a{
+    color: azure;
 }
