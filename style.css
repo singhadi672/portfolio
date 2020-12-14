@@ -42,23 +42,24 @@ nav img{
 }
 
 #inactive{
-    color: darkgray;
+    color: rgb(235, 233, 233);
+    font-weight: lighter;
     
 }
 
 #active{
     color: white;
-    font-weight: bold;
+    /* font-weight: bold; */
 }
 
 #nav p{
     top: 0px;
-    text-align: center;
-    position: absolute;
-    display: inline; 
+    /* text-align: center; */
+    /* position: absolute; */
+    display: inline;
     padding-left: 5%;
     font-size: 50px;
-    color: bisque;
+    color: rgb(235, 233, 233);
 }
 
 #nav ul{
@@ -131,8 +132,8 @@ nav img{
 }
 
 .techno-image{
-  position: absolute;
-  margin-left: 42%;
+  display: block;
+  margin:auto;
   margin-top: 25px;
   height: 90px;
  
